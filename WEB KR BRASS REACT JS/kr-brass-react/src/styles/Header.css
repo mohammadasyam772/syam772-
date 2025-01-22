@@ -1,0 +1,41 @@
+/* src/styles/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-list a:hover {
+    color: #f4a261;
+  }
+  
+  /* Responsive */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
